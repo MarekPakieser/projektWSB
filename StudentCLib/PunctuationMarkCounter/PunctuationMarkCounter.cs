@@ -1,13 +1,7 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
-namespace StudentCLib
+namespace StudentCLib.PunctuationMarkCounter
 {
-    public interface IPunctuationMarkCounter
-    {
-        int CountPunctuationMarks(string input);
-    }
-
     internal class PunctuationMarkCounter : IPunctuationMarkCounter
     {
         public int CountPunctuationMarks(string input)
