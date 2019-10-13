@@ -1,4 +1,5 @@
 ﻿using System;
+using StudentCLib;
 
 namespace MainProject
 {
@@ -6,7 +7,11 @@ namespace MainProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var input = "as,dasdawda";
+            var punctuationCounter = StudentCFactory.PunctuationMarkCounter();
+
+            int punctuationMarks = punctuationCounter.CountPunctuationMarks(input);
+            Console.WriteLine(punctuationMarks.ToString());
         }
     }
 }
