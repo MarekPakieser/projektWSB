@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using StudentCLib.PunctuationMarkCounter;
+﻿using StudentCLib.PunctuationMarkCounter;
 using StudentCLib.SentencesCounter;
 using PunctuationCounter = StudentCLib.PunctuationMarkCounter.PunctuationMarkCounter; 
 
