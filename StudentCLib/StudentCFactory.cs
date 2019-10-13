@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using StudentCLib.PunctuationMarkCounter;
+using StudentCLib.SentencesCounter;
 using PunctuationCounter = StudentCLib.PunctuationMarkCounter.PunctuationMarkCounter; 
 
 namespace StudentCLib
@@ -11,6 +12,11 @@ namespace StudentCLib
         public static IPunctuationMarkCounter PunctuationMarkCounter()
         {
             return new PunctuationCounter();
+        }
+
+        public static ISentencesCounter SentencesCounter()
+        {
+            return new SentencesCounter.SentencesCounter();
         }
     }
 }
