@@ -1,4 +1,4 @@
-﻿namespace StudentCLib
+﻿namespace StudentCLib.PunctuationMarkCounter
 {
     public interface IPunctuationMarkCounter
     {
